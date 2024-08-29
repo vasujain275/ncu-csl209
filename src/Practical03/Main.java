@@ -31,6 +31,7 @@ public class Main {
         // Find second highest element
         Arrays.sort(array);
         int secondHighest = array[array.length - 2];
+
         System.out.println("Second highest element: " + secondHighest);
 
         scanner.close();
